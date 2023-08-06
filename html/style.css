@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  header {
+    background-color: #0d1100;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #49a126;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #85cf16;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .game {
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .game img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .game-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .game-description {
+    text-align: justify;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 5px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  body {
+    background-image: url('/Users/toshiro/Downloads/html/img/Consola.png');
+    background-size: cover;
+  }
+  h2 {
+    color: #49a126;
+  }
+  p {
+    color: #a6c835;
+  }
+  h3 {
+    color: #49a126;
+  }
+
+  h4 {
+    color: #a14726;
+  }
+
+  form label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  #songs-container {
+    margin-top: 30px;
+  }
+  
+  .song {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #menu {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #content {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  .container {
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    margin: 100px auto;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    animation: spin 5s infinite linear;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+    100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+  }
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  h5 {
+    color: #f8f5f5;
+  }
+  
+  #location {
+    color: #eb0c0c;
+  }
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #gallery {
+    margin-top: 20px;
+  }
+  
+  #gallery img {
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  
+    
+
